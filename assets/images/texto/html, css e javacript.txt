@@ -1,0 +1,172 @@
+Curiosidades de Tecnologia
+Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar
+[MENU]
+
+Home
+Notícias
+Curiosidades
+Fale Conosco
+
+Como Surgiram o HTML, CSS e JavaScript
+
+Hoje praticamente tudo funciona através da internet: redes sociais, lojas online, vídeos, jogos, bancos e até inteligência artificial. Mas por trás de quase todos os sites do mundo existem três tecnologias fundamentais: HTML, CSS e JavaScript.
+
+Elas trabalham juntas para criar páginas modernas, bonitas e interativas. Porém, cada uma nasceu em um momento diferente da história da tecnologia e com objetivos específicos.
+
+O Surgimento do HTML
+
+No começo da internet, as páginas eram extremamente simples. Não existiam sites modernos, menus animados ou redes sociais. A web era usada principalmente por cientistas e pesquisadores para compartilhar documentos.
+
+Foi então que, em 1991, o cientista britânico Tim Berners-Lee criou o HTML, sigla para HyperText Markup Language.
+
+📸 [FOTO: Tim Berners-Lee trabalhando no CERN]
+
+A ideia principal era permitir que documentos fossem conectados através de links clicáveis. Isso revolucionou a internet, porque antes os arquivos eram isolados.
+
+O HTML nasceu como uma linguagem de marcação. Ou seja: ele não foi criado para “programar”, mas sim para estruturar informações.
+
+Com ele era possível criar:
+
+títulos
+parágrafos
+links
+tabelas
+imagens
+
+Os primeiros sites da história eram praticamente apenas texto branco em fundo cinza.
+
+📸 [FOTO: primeiro site da história]
+
+Mesmo extremamente simples, o HTML mudou o mundo. Ele se tornou a base da World Wide Web e continua sendo usado até hoje.
+
+Curiosamente, o primeiro site criado por Tim Berners-Lee ainda pode ser acessado na internet.
+
+O Problema das Páginas Feias
+
+Com o crescimento da internet nos anos 90, começaram a surgir milhares de páginas. Porém existia um problema enorme: os sites eram muito desorganizados visualmente.
+
+Tudo parecia igual.
+
+Não existiam:
+
+layouts modernos
+animações
+cores bem trabalhadas
+design profissional
+
+Cada navegador mostrava as páginas de um jeito diferente.
+
+Foi aí que nasceu a necessidade de separar o conteúdo da aparência.
+
+O Surgimento do CSS
+
+Em 1996 surgiu o CSS, criado por Håkon Wium Lie.
+
+CSS significa Cascading Style Sheets.
+
+📸 [FOTO: comparação de site sem CSS e com CSS]
+
+A missão do CSS era simples:
+
+deixar os sites bonitos sem misturar aparência com conteúdo.
+
+Antes do CSS, tudo precisava ser configurado diretamente no HTML, o que deixava os códigos enormes e bagunçados.
+
+Com o CSS, os desenvolvedores passaram a controlar:
+
+cores
+fontes
+sombras
+tamanhos
+espaçamentos
+posicionamento
+animações
+
+O CSS transformou completamente a aparência da internet.
+
+Graças a ele surgiram:
+
+menus modernos
+layouts profissionais
+sites responsivos
+efeitos visuais
+designs minimalistas
+
+Hoje praticamente toda identidade visual de um site depende do CSS.
+
+📸 [FOTO: evolução visual dos sites ao longo do tempo]
+
+O Nascimento do JavaScript
+
+Mesmo com HTML e CSS, os sites ainda tinham uma limitação: eles eram praticamente “parados”.
+
+Você clicava e apenas carregava outra página.
+
+Não existiam:
+
+pop-ups
+animações inteligentes
+atualizações em tempo real
+validações automáticas
+interatividade avançada
+
+Então, em 1995, a empresa Netscape precisava de uma linguagem para tornar os navegadores mais dinâmicos.
+
+O programador Brendan Eich recebeu essa missão.
+
+📸 [FOTO: Brendan Eich]
+
+E o mais curioso:
+ele criou a primeira versão do JavaScript em apenas 10 dias.
+
+Inicialmente, a linguagem se chamava Mocha. Depois virou LiveScript e finalmente recebeu o nome JavaScript, aproveitando a popularidade da linguagem Java na época.
+
+Mas apesar do nome parecido:
+
+Java e JavaScript são linguagens completamente diferentes.
+
+A Revolução da Interatividade
+
+O JavaScript permitiu criar páginas muito mais vivas e inteligentes.
+
+Com ele passaram a existir:
+
+sliders
+menus animados
+validação de formulários
+notificações
+sistemas online
+jogos no navegador
+
+📸 [FOTO: exemplos de interatividade com JavaScript]
+
+Com o passar dos anos, o JavaScript cresceu absurdamente.
+
+Hoje ele é usado para:
+
+criar aplicativos
+desenvolver servidores
+construir jogos
+programar inteligência artificial
+desenvolver apps mobile
+
+Atualmente o JavaScript é uma das linguagens mais utilizadas do planeta.
+
+Como as Três Tecnologias Trabalham Juntas
+
+Uma forma simples de entender é imaginar uma casa:
+
+HTML → estrutura da casa
+CSS → pintura e decoração
+JavaScript → eletricidade e automação
+
+Sem HTML:
+não existe conteúdo.
+
+Sem CSS:
+o site fica feio.
+
+Sem JavaScript:
+o site fica sem vida.
+
+As três juntas formam praticamente toda a base da web moderna.

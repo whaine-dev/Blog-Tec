@@ -1,0 +1,331 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Faster+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    background-color: #00042A;
+    margin: 0 0 0 0;
+    color: white;
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+    object-fit: cover;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-widrh: 768px){
+    header.hero {
+        background-position: right;
+    }
+}
+
+header.hero {
+    height: 100vh;
+    background-image:
+    url("../images/tela/telainicio.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}  
+
+header.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.header_h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: "bungee";
+    font-size: 2em;
+}
+
+.header_h2 {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+/*-------------Nav---------------*/
+nav {
+    background-color: #00042A;
+    width: 100%;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+nav a {
+    color: white;
+    display: inline-block;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #0044CC;
+    transform: translateY(-3px);
+}
+
+.esquerda:hover {
+    color: #F4541B;
+}
+
+.direita a:hover {
+    color: #E8BF19;
+}
+
+.esquerda {
+    font-family: "bungee";
+}
+.centro {
+    display: flex;
+    font-size: large;
+    gap: 28px;
+}
+
+.direita {
+    font-size: 25px;
+}
+/*------------------------------- -*/
+
+
+
+.hero_texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+}
+
+main {
+     background-color: #00042A;
+     max-width: 1000px;
+     padding-top: 20px;
+     margin: auto;
+}
+
+
+
+/*-------------alinhamento das figuras--------------*/
+.h1, .c2, .h3, .j1, .j3 {
+    width: 200px;
+    position: absolute;
+    left: -250px;
+}
+
+.h2, .c1, .j2, .c3 {
+    position: absolute;
+    width: 200px;
+    right: -250px;;
+}
+
+
+#html, #css, #jc {
+    background-color:#deecfe;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    margin: 50px auto;
+    height: auto;
+    max-width: 900px;
+    animation: section;
+    animation-timeline: view();
+    animation-range: entry 0%;
+}
+/*--------------------------------------------------*/
+
+
+
+/*--------------animação do section-----------------*/
+@keyframes section{
+    from{
+        opacity: 0;
+        scale: .5;
+    }
+}
+
+.html_h { /*cor do texto html*/
+    color: #F4541B;
+}
+
+.css_c { /*cor do texto css*/
+    color: #0044CC;
+}
+
+.jc_j { /*cor do texto jc*/
+    color: #E8BF19;
+}
+
+section {
+    transition: 0.3s;
+    margin-top: 20px;
+}
+/*--------------------------------------------------*/
+
+
+
+
+/*------------animação-do-box-shedow----------------*/
+#html:hover { /*seaction animado com sonbra*/
+    box-shadow: 0px 0px 30px 15px #F4541B;
+    transform: translateY(-3px);
+}
+
+#html {
+    box-shadow: 0px 0px 20px 10px #F4541B;
+    margin-bottom: 10px;
+}
+
+#css:hover {  /*seaction animado com sonbra*/
+    transform: translateY(-3px);
+    box-shadow: 0px 0px 30px 15px #0044CC;
+}
+
+#css {
+    box-shadow: 0px 0px 20px 10px #0044CC;
+}
+
+#jc:hover {  /*seaction animado com sonbra*/
+    transform: translateY(-3px);
+    box-shadow: 0px 0px 30px 15px #E8BF19;
+}
+
+#jc {
+    box-shadow: 0px 0px 20px 10px #E8BF19;
+}
+/*--------------------------------------------------*/
+
+
+
+
+.top {
+    margin-top: 15px;
+}
+/*-------------------link----------------------------*/
+.link_primeiro {
+    font-size: 20px;
+    padding-bottom: auto;
+}
+
+.link_primeiro::after { /*emoji a direita do link*/
+    content: "🔗";
+}
+/*--------------------------------------------------*/
+
+
+
+pre {
+    color: #1E293B;
+}
+
+h2 {
+    font-family: "bungee";
+    color: #2563EB;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #1E293B;
+    text-indent: 20px;
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+ul {
+    color: #1E293B;
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+strong {
+    color:#032065;
+}
+
+.fim {
+    color: white;
+}
+
+/*---------------ganbiara-para-akinhar-o-vídeo-----------------------*/
+div.video {
+    background-color: #E8BF19;
+    margin-bottom: 30px;
+    margin:0px -50px 0px -50px;
+    padding: 10px;
+    padding-bottom: 70%;
+    position: relative;
+}
+
+div.video iframe {
+    position: absolute;
+    top: 23px;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+/*-------------------------------------------------------------------*/
+
+footer {
+    background-color:#0F172A;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    height: auto;
+    margin: 20px auto;
+}
+
+address {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*--------------------animação-das-redes----------------------------*/
+.redes_1, .redes_2, .redes_3 {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: 0.3s;
+    
+}
+
+.redes_1:hover {
+    color: #F4541B;
+}
+
+.redes_2:hover {
+    color: #0044CC;
+}
+
+.redes_3:hover {
+    color: #E8BF19;
+}
+/*------------------------------------------------------------------*/
